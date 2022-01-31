@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculette</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="../js/script.js" async></script>
+</head>
+<body>
+    <div class="conteneur">
+        <div class="display">
+            <p id="output"></p>
+        </div>
+        <div class="clavier">
+                <button onclick=effacer(this)>C</button>
+                <button onclick=afficherNb(this)>(</button>
+                <button onclick=afficherNb(this)>)</button>
+                <button onclick=supCarac()>&rarr;</button>
+                <button onclick=afficherNb(this)>/</button>
+                <button onclick=afficherNb(this)>9</button>
+                <button onclick=afficherNb(this)>7</button>
+                <button onclick=afficherNb(this)>8</button>
+                <button onclick=afficherNb(this)>*</button>
+                <button onclick=afficherNb(this)>6</button>
+                <button onclick=afficherNb(this)>5</button>
+                <button onclick=afficherNb(this)>4</button>
+                <button onclick=afficherNb(this)>+</button>
+                <button onclick=afficherNb(this)>3</button>
+                <button onclick=afficherNb(this)>2</button>
+                <button onclick=afficherNb(this)>1</button>
+                <button onclick=afficherNb(this)>-</button>
+                <button onclick=afficherNb(this)>0</button>
+                <button onclick=afficherNb(this)>.</button>
+                <button onclick=operation()>=</button>
+        </div>
+    </div>
+</body>
+</html>
